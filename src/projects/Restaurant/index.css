@@ -1,0 +1,14 @@
+.restaurant {
+  background: #F1F5F8;
+}
+
+.dishContainer {
+  margin: 10px;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=index.css.map */

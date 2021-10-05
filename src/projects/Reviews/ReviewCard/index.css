@@ -1,0 +1,65 @@
+.profilePicture {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+}
+
+.profilePicture img {
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.profilePicture::before {
+  background-color: #42a5f4;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: 7px;
+  width: 150px;
+  height: 150px;
+}
+
+.textContainer {
+  text-align: center;
+}
+
+.name {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.job {
+  color: #49a6e9;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.text {
+  color: gray;
+}
+
+.quoteIcon {
+  align-items: center;
+  background-color: #49a6e9;
+  border-radius: 50%;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  justify-content: center;
+  top: 5px;
+  left: 0px;
+}
+
+.quoteIcon svg {
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */

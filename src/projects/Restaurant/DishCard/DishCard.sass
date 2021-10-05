@@ -1,0 +1,44 @@
+$primary: #C59D5F
+$background: #F1F5F8
+
+.dishCard *
+  border: none
+  box-sizing: border-box
+  box-shadow: none
+  padding: 0
+  margin: 0
+
+.dishCard
+  display: flex
+  flex-direction: column
+  text-align: center
+  margin: 30px 0px
+  width: 90vw
+
+  img
+    border: 5px $primary solid
+    object-fit: cover
+    height: 200px
+    width: 100%
+
+  .headingText
+    justify-content: space-between
+    display: flex
+    margin-top: 10px
+
+    .title
+      text-align: left
+      text-transform: capitalize
+
+    .price
+      color: $primary
+
+  hr
+    margin-top: 5px
+    border-top: 1px black dotted
+
+  .description
+    color: #8F7DA4
+    margin-top: 10px
+    text-align: left
+    width: 100%
