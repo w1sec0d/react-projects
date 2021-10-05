@@ -41,7 +41,7 @@ const Restaurant = () => {
       <div className="dishContainer">
         {data.map((dish) =>
           dish.category === filter || filter === "todo" ? (
-            <DishCard {...dish} />
+            <DishCard {...dish} className="dishCard" />
           ) : null
         )}
       </div>
