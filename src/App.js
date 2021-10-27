@@ -1,10 +1,10 @@
 import React from "react"
-import Restaurant from "./projects/Restaurant"
+import Lorem from "./projects/LoremIpsum"
 
 const App = () => {
   return (
     <div>
-      <Restaurant />
+      <Lorem />
     </div>
   )
 }

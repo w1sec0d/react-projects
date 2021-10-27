@@ -1,12 +1,17 @@
 import React from "react"
 
-export const Title = ({ lineColor = "#42a5f4", children }) => {
+export const Title = ({
+  lineColor = "#42a5f4",
+  fontSize = "2rem",
+  children,
+}) => {
   const styles = {
     container: {
       margin: "2rem 0",
       width: "100%",
     },
     title: {
+      fontSize: fontSize,
       letterSpacing: "2px",
       margin: 0,
       textAlign: "center",
